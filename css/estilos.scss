@@ -1,5 +1,11 @@
+// Variables
+$btn-color: rgb(139, 238, 225);
+$btn-colorHover: rgba(139, 238, 225, 0.541);
+$bg-colorMain: #6bbeee!important;
+
+
 .bg-light{
-    background-color: #bcebdf;
+    background-color: $bg_colorMain;
 }
     
 .pedidos__formulario{
