@@ -1,5 +1,21 @@
 .bg-light {
-  background-color: #6bbeee !important;
+  background-color: rgba(53, 99, 129, 0.747) !important;
+}
+
+.btn-colorPropio {
+  background-color: rgba(18, 60, 114, 0.747);
+  border-color: rgba(18, 60, 114, 0.747);
+}
+.btn-colorPropio:hover {
+  background-color: rgb(18, 60, 114);
+  border-color: rgb(18, 60, 114);
+}
+
+.nav-hoverPropio {
+  color: #000000;
+}
+.nav-hoverPropio:hover {
+  color: #98bcec;
 }
 
 .pedidos__formulario {

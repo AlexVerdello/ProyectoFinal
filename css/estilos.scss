@@ -1,13 +1,26 @@
 // Variables
-$btn-color: rgb(139, 238, 225);
-$btn-colorHover: rgba(139, 238, 225, 0.541);
-$bg-colorMain: #6bbeee!important;
+$btn-color: rgba(18, 60, 114, 0.747);
+$btn-colorHover: rgb(18, 60, 114);
+$bg-colorMain: rgba(53, 99, 129, 0.747)!important;
 
 
 .bg-light{
     background-color: $bg_colorMain;
 }
-    
+.btn-colorPropio{
+    background-color: $btn-color;
+    border-color: $btn-color; 
+        &:hover {
+            background-color: $btn-colorHover;
+            border-color: $btn-colorHover;
+        }
+}
+.nav-hoverPropio{
+    color: #000000;
+    &:hover {
+        color: #98bcec;
+    }
+}    
 .pedidos__formulario{
     width: 80vw;
     margin: 1em auto;
