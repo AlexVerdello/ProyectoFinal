@@ -1,11 +1,10 @@
 // Variables
-$btn-color: rgba(18, 60, 114, 0.747);
-$btn-colorHover: rgb(18, 60, 114);
-$bg-colorMain: rgba(53, 99, 129, 0.747)!important;
-
+@import "_colores";
+@import "_fuentes";
 
 .bg-light{
     background-color: $bg_colorMain;
+    color:blue;
 }
 .btn-colorPropio{
     background-color: $btn-color;
@@ -46,7 +45,8 @@ $bg-colorMain: rgba(53, 99, 129, 0.747)!important;
         border-right: 5px solid #bcebdf;
         height: 80%;
         h2{
-            font-size:3em
+            font-size:3em;
+            
         }
     }
     .columna-parrafo{
