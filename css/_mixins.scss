@@ -8,7 +8,11 @@
 }
 
 //mixins
-
+@mixin alineacion ($display, $jc , $ai){
+    display: $display;
+    justify-content: $jc;
+    align-items: $ai;
+}
 
 
 //maps

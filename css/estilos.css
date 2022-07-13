@@ -32,7 +32,7 @@ p {
 .nosotros {
   height: 100vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center; }
   .nosotros .columna-titulo {
     width: 20%;
@@ -85,17 +85,17 @@ footer .contacto ul {
 
 @media (max-width: 1250px) {
   .nosotros {
-    height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    height: 100vh;
+    flex-direction: column;
     padding: 1px; }
     .nosotros .columna-titulo {
-      width: 70%;
       display: flex;
       justify-content: center;
       align-items: center;
+      width: 70%;
       border-right: none;
       border-bottom: 5px solid #bcebdf;
       height: 20%; }

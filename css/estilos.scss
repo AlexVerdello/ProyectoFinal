@@ -21,6 +21,15 @@
         color: #98bcec;
     }
 }    
+//Estilos "Index"
+
+
+
+
+// Fin estilos "Index"
+
+
+// Estilos "Pedidos"
 .pedidos__formulario{
     width: 80vw;
     margin: 1em auto;
@@ -34,9 +43,8 @@
 
 .nosotros{
     height: 100vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include alineacion(flex, space-between, center);
+    
 
     .columna-titulo{
         width: 20%;
@@ -65,9 +73,7 @@
     justify-content: space-around;
 
     .productos__card {
-        display: flex;
-        justify-content:space-around;
-        align-items: center;
+        @include alineacion(flex, space-around, center);
         flex-wrap: wrap;
         img{
             height: 200px
@@ -120,18 +126,14 @@ footer{
 
 @media (max-width: 1250px){
     .nosotros{
+        @include alineacion(flex, space-evenly, center);
         height: 100vh;
-        display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
         padding:1px;
     
         .columna-titulo{
+            @include alineacion(flex, center, center);
             width: 70%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             border-right: none;
             border-bottom: 5px solid #bcebdf;
             height: 20%;
@@ -145,6 +147,7 @@ footer{
             
         }
     }
+    
 }
 @media (max-width: 660px){
     .nosotros{      
