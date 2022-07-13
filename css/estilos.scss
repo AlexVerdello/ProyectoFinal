@@ -1,17 +1,18 @@
 // Variables
 @import "_colores";
 @import "_fuentes";
+@import "_mixins";
 
 .bg-light{
     background-color: $bg_colorMain;
-    color:blue;
+    
 }
-.btn-colorPropio{
+.btn-estiloPropio{
     background-color: $btn-color;
     border-color: $btn-color; 
         &:hover {
             background-color: $btn-colorHover;
-            border-color: $btn-colorHover;
+            border-color: $btn-colorHover;            
         }
 }
 .nav-hoverPropio{

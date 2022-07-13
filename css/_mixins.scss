@@ -1,0 +1,14 @@
+//extend
+
+.btn-colorPropio{
+    @extend .btn-estiloPropio;
+        &:hover {    
+    transition: all .5s ease-in-out;
+}
+}
+
+//mixins
+
+
+
+//maps
