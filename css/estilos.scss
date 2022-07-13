@@ -2,7 +2,9 @@
 @import "_colores";
 @import "_fuentes";
 @import "_mixins";
-
+h2{
+    font-size: map-get($tamaño, h2),   
+}
 .bg-light{
     background-color: $bg_colorMain;
     

@@ -7,6 +7,9 @@ p {
 .btn-colorPropio:hover {
   transition: all .5s ease-in-out; }
 
+h2 {
+  font-size: map-get; }
+
 .bg-light {
   background-color: rgba(53, 99, 129, 0.747) !important; }
 
