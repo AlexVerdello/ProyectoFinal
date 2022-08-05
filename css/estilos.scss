@@ -3,7 +3,7 @@
 @import "_fuentes";
 @import "_mixins";
 h2{
-    font-size: map-get($tamaño, h2),   
+    font-size: map-get($tamaños, h2),   
 }
 .bg-light{
     background-color: $bg_colorMain;
@@ -22,12 +22,9 @@ h2{
     &:hover {
         color: #98bcec;
     }
-}    
+}     
+
 //Estilos "Index"
-
-
-
-
 // Fin estilos "Index"
 
 
@@ -35,14 +32,14 @@ h2{
 .pedidos__formulario{
     width: 80vw;
     margin: 1em auto;
+    color: $clr-txt;
 }
 
 .pedidos__formulario form {
     width: 100%;
 } 
+
 // Estilos de "Nosotros"
-
-
 .nosotros{
     height: 100vh;
     @include alineacion(flex, space-between, center);
@@ -57,6 +54,7 @@ h2{
         height: 80%;
         h2{
             font-size:3em;
+            color: $clr-txt;
             
         }
     }
@@ -64,6 +62,7 @@ h2{
         width: 70%;
         padding-left: 10px;
         font-size: 1.2em;
+        color: $clr-txt;
         
     }
 }
@@ -73,6 +72,7 @@ h2{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    color: $clr-txt;
 
     .productos__card {
         @include alineacion(flex, space-around, center);
@@ -85,17 +85,19 @@ h2{
         }
     }
 }
-
-
-
 /* Fin de Estilos de "Productos" */
 
+
 // Estilos de "Trabajos"
+.trabajos{
+    color: $clr-txt;
+}
 .trabajos__galeria{
     width: 85vw;
     height:60vmin;
     display: flex;
     gap:15px;
+    
 
         img{
             height:100%;
@@ -122,9 +124,8 @@ footer{
 
     }
 }
-
-
 // Fin de estilos "Footer"
+
 
 @media (max-width: 1250px){
     .nosotros{
